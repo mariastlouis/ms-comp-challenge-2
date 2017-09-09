@@ -1,12 +1,44 @@
 body {
+font-family: 'Oswald', sans-serif;
+ line-height: 1;
+ box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #6b6b6b;
+}
+
+a:hover {
+color: #C9654E;
+}
+
+h1 {
+    color: #888484;
+    font-weight: 300;
+    padding: 10px;
+}
+
+h3, 
+p, 
+h2,
+h1{
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
 
 }
 
 nav {
-	background: navy;
+	background: #0f1f56;
 	height: 100px;
 }
 
+main {
+	background: #f3f0f0;
+}
 
 .container {
  margin-left: auto;
@@ -24,17 +56,61 @@ nav {
   
 }
 
+.card-top {
+	height: 125px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	color: white;
+}
+
+
 .card {
 /*display: inline-block;*/
+  background: #ffffff;
   width: 280px;
   margin: 10px;
   box-shadow: 1.5px 3px 3px 1.5px #566782;
+/*display: flex;*/
 }
 
-/*.card-top {
-	height: 126px;
-	width: 280px;
+.top-right {
+	display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 0;
+		padding: 0 10px 10px 10px;
+	background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.4);
+}
+
+/*.top-right:hover {
+background: rgb(0, 0, 0); 
+ background: rgba(0, 0, 0, 0.4);
 }*/
+
+.top-left {
+background-image:url(images/heart_icon-07.png);
+background-position: bottom 15px right 20px;
+background-repeat: no-repeat;
+height: 35px;
+width: 40px;
+padding-top: 10px;
+padding-left: 10px;
+
+}
+
+.top-left:hover {
+	background-image:url(images/heart_icon-06.png);
+
+}
+
+.big-number {
+	font-size: 25px;
+	margin-top: 5px;
+	font-weight: 300;
+}
+
 
 .card1, 
 .card2.
@@ -45,40 +121,108 @@ nav {
 .card7,
 .card8 {
 background-repeat: no-repeat;
+background-size: cover;
+
 
 }
 
-.card1 {
-background-image: url(images/colorado2.jpg);
+.small-hed {
+	font-size: 12px;
+	font-weight: 300;
+	padding-top: 5px;
+}
 
+.card1 {
+
+background-image:url(images/colorado2.jpg);
+height: 125px;
 }
 
 .card2 {
 background-image: url(images/venice2.jpg);
+height: 125px;
 }
 
 .card3 {
-	background-image: url(images/venice2.jpg);
+	background-image: url(images/phu-quoc-island-ocean2.jpg);
+	height: 125px;
 }
 
 .card4 {
-	background: purple;
+	background-image: url(images/city_scape2.jpg);
+	height: 125px;
 }
 
 .card5 {
-	background: yellow;
+	background-image: url(images/abu-dhabi2.jpg);
+	height: 125px;
 }
 
 .card6 {
-	background: gray;
+	background-image: url(images/beach2.jpg);
+	height: 125px;
 }
 
 .card7 {
-	background: orange;
+	background-image: url(images/windy_road_resized3.jpg);
+	height: 125px;
 }
 
 .card8 {
-	background: magenta;
+	background-image: url(images/city-beach.jpeg);
+	height: 125px;
+}
+
+
+
+h3 {
+    color: #6b6b6b;
+    font-size: 18px;
+    font-weight: 300;
+    }
+
+.bottom-card {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.bottom-small {
+	font-size: 12px;
+	font-weight: 300;
+	color: #6b6b6b;
+}
+
+.accent {
+	color: #C9654E;
+}
+
+.bottom-margin {
+	margin-bottom: 15px;
+}
+
+.small-margin{
+	margin-bottom: 5px;
+}
+/*.bottom-hed {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+*/
+   .card-text {
+    color: #b1aeae;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.link-div {
+	background: #f3f0f0;
+	color: #6b6b6b;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 220px;
+	height: 35px;
+	padding: 10px;
+	font-size: 14px;
 }
 
 @media screen and (max-width: 1200px) {

@@ -1,0 +1,102 @@
+body {
+
+}
+
+nav {
+	background: navy;
+	height: 100px;
+}
+
+
+.container {
+ margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 1200px;
+
+}
+.card-holder {
+	display: flex;
+  flex-wrap: wrap;
+  /*justify-content: space-around;*/
+ 	
+  /*text-align: center;*/
+  
+}
+
+.card {
+/*display: inline-block;*/
+  width: 280px;
+  margin: 10px;
+  box-shadow: 1.5px 3px 3px 1.5px #566782;
+}
+
+/*.card-top {
+	height: 126px;
+	width: 280px;
+}*/
+
+.card1, 
+.card2.
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8 {
+background-repeat: no-repeat;
+
+}
+
+.card1 {
+background-image: url(images/colorado2.jpg);
+
+}
+
+.card2 {
+background-image: url(images/venice2.jpg);
+}
+
+.card3 {
+	background-image: url(images/venice2.jpg);
+}
+
+.card4 {
+	background: purple;
+}
+
+.card5 {
+	background: yellow;
+}
+
+.card6 {
+	background: gray;
+}
+
+.card7 {
+	background: orange;
+}
+
+.card8 {
+	background: magenta;
+}
+
+@media screen and (max-width: 1200px) {
+	.container {width: 900 
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.container {width: 600;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.container { width: 600
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.container { width: 300
+	}
+}

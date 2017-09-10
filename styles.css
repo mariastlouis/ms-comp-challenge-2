@@ -32,14 +32,76 @@ h1{
 }
 
 nav {
-	background: #0f1f56;
+	background: #4EB2C9;
 	height: 100px;
+	padding: 5px 16px 0;
+	/*max-width: 1200px;*/
 }
 
 main {
 	background: #f3f0f0;
 }
 
+.nav-top {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-top img {
+	width: 17px;
+	padding: 5px;
+}
+
+img#arrow {
+    width: 12;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.nav-bottom {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+
+.nav-bottom img {
+	width: 19px;
+	margin-right: 5px;
+
+}
+
+.left-bottom, 
+.center-bottom,
+.right-bottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+}
+
+img.logo-img {
+    width: 25px;
+    margin-top: 3px;
+}
+
+h1.logo-txt {
+	padding: 0px;
+}
+
+.inside-nav {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+}
 .container {
  margin-left: auto;
   margin-right: auto;
@@ -65,14 +127,7 @@ main {
 }
 
 
-.card {
-/*display: inline-block;*/
-  background: #ffffff;
-  width: 280px;
-  margin: 10px;
-  box-shadow: 1.5px 3px 3px 1.5px #566782;
-/*display: flex;*/
-}
+
 
 .top-right {
 	display: flex;
@@ -130,6 +185,10 @@ background-size: cover;
 	font-size: 12px;
 	font-weight: 300;
 	padding-top: 5px;
+}
+
+.alt-color {
+	color: white;
 }
 
 .card1 {
@@ -225,6 +284,15 @@ h3 {
 	font-size: 14px;
 }
 
+.card {
+/*display: inline-block;*/
+  background: #ffffff;
+  width: 280px;
+  margin: 10px;
+  box-shadow: 1.5px 3px 3px 1.5px #566782;
+/*display: flex;*/
+}
+
 @media screen and (max-width: 1200px) {
 	.container {width: 900 
 	}
@@ -235,12 +303,24 @@ h3 {
 	}
 }
 
-@media screen and (max-width: 900px) {
-	.container { width: 600
+@media screen and (max-width: 600px) {
+	.container {width: 300;
 	}
+	
+	.left-bottom, 
+	.center-bottom,
+	.right-bottom {
+	margin: 25px 10px 10px 10px;
+	}
+
+	.logo {
+		margin-top: 10px;
+	}
+
 }
 
-@media screen and (max-width: 600px) {
-	.container { width: 300
+/*@media screen and (max-width: 510px) {
+	.container { width: 280
 	}
 }
+*/

@@ -46,11 +46,7 @@ main {
 
 /*nav styles*/
 
-.inside-nav {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 1200px;
-}
+
 
 .nav-top {
 	display: flex;
@@ -89,7 +85,7 @@ img#arrow {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*margin: 25px 20px 20px 20px;*/
+	margin: 25px 20px 20px 20px;
 }
 
 .logo {
@@ -300,25 +296,34 @@ h3 {
 /*display: flex;*/
 }
 
+/*@media screen and (min-width: 1300px) {
+.inside-nav {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+}
+
+}*/
+
 @media screen and (max-width: 1200px) {
-	.container, 
-	.inside-nav {
-		width: 900 
+	.container {
+		width: 900px;
 	}
 	
 }
 
 @media screen and (max-width: 900px) {
-	.container,
-	.inside-nav {width: 600;
+	.container {
+		width: 600px;
 	}
 }
 
 @media screen and (max-width: 600px) {
 	
-	
-	.container { width: 300px;
+	.container { 
+		width: 300px;
 	}
+
 	/*.inside-nav {
 		width: 100%;
 	}*/
@@ -326,7 +331,7 @@ h3 {
 	.left-bottom, 
 	.center-bottom,
 	.right-bottom {
-	margin: 25px 10px 10px 10px;
+	margin: 25px 5px 10px 1px;
 	}
 
 	.logo {

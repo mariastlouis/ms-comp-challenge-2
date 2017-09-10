@@ -4,6 +4,8 @@ font-family: 'Oswald', sans-serif;
  box-sizing: border-box;
 }
 
+
+
 a {
 	text-decoration: none;
 	color: #6b6b6b;
@@ -112,7 +114,7 @@ h1.logo-txt {
   margin-right: auto;
   display: block;
   width: 1200px;
-
+  background: green;
 }
 .card-holder {
 	display: flex;
@@ -173,7 +175,7 @@ padding-left: 10px;
 
 
 .card1, 
-.card2.
+.card2,
 .card3,
 .card4,
 .card5,
@@ -313,11 +315,13 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
-	.container {width: 300px;
+	
+	
+	.container { width: 300px;
 	}
-	.inside-nav {
-		width: 100%
-	}
+	/*.inside-nav {
+		width: 100%;
+	}*/
 	
 	.left-bottom, 
 	.center-bottom,
@@ -331,8 +335,8 @@ h3 {
 
 }
 
-@media screen and (max-width: 300px) {
+/*@media screen and (max-width: 300px) {
 	.container { width: 250px;
 	}
-}
+}*/
 

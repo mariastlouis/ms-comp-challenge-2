@@ -79,6 +79,12 @@ img#arrow {
 
 }
 
+.nav-hed {
+	font-size: 16px;
+	font-weight: 300;
+	padding-top: 5px;
+}
+
 .left-bottom, 
 .center-bottom,
 .right-bottom {
@@ -110,7 +116,6 @@ h1.logo-txt {
   margin-right: auto;
   display: block;
   width: 1200px;
-  background: green;
 }
 .card-holder {
 	display: flex;
@@ -323,6 +328,10 @@ h3 {
 	.container { 
 		width: 300px;
 	}
+
+	.nav-hed {
+	font-size: 12px;
+}
 
 	/*.inside-nav {
 		width: 100%;

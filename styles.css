@@ -42,6 +42,14 @@ main {
 	background: #f3f0f0;
 }
 
+/*nav styles*/
+
+.inside-nav {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+}
+
 .nav-top {
 	display: flex;
 	justify-content: flex-end;
@@ -63,11 +71,12 @@ img#arrow {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	
+	/*margin-top: 30px;
+	margin-bottom: 20px;*/
 }
 
 .nav-bottom img {
-	width: 19px;
+	width: 22px;
 	margin-right: 5px;
 
 }
@@ -78,7 +87,7 @@ img#arrow {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 20px;
+	/*margin: 25px 20px 20px 20px;*/
 }
 
 .logo {
@@ -97,11 +106,7 @@ h1.logo-txt {
 	padding: 0px;
 }
 
-.inside-nav {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 1200px;
-}
+
 .container {
  margin-left: auto;
   margin-right: auto;
@@ -294,17 +299,24 @@ h3 {
 }
 
 @media screen and (max-width: 1200px) {
-	.container {width: 900 
+	.container, 
+	.inside-nav {
+		width: 900 
 	}
+	
 }
 
 @media screen and (max-width: 900px) {
-	.container {width: 600;
+	.container,
+	.inside-nav {width: 600;
 	}
 }
 
 @media screen and (max-width: 600px) {
-	.container {width: 300;
+	.container {width: 300px;
+	}
+	.inside-nav {
+		width: 100%
 	}
 	
 	.left-bottom, 
@@ -319,8 +331,8 @@ h3 {
 
 }
 
-/*@media screen and (max-width: 510px) {
-	.container { width: 280
+@media screen and (max-width: 300px) {
+	.container { width: 250px;
 	}
 }
-*/
+

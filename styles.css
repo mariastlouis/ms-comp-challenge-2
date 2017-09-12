@@ -140,9 +140,7 @@ main {
 	margin-top: 0;
 	padding: 0 10px 10px 10px;
 }
-
-
- .top-left {
+.top-left {
  	background-image:url(images/heart_icon-07.png);
  	background-position: bottom 15px right 20px;
  	background-repeat: no-repeat;
@@ -150,21 +148,15 @@ main {
  	padding-top: 10px;
  	padding-left: 10px;
  	width: 40px;
-
- }
-
- .top-left:hover {
+}
+.top-left:hover {
  	background-image:url(images/heart_icon-06.png);
-
- }
-
- .big-number {
+}
+.big-number {
  	font-size: 25px;
  	font-weight: 300;
  	margin-top: 5px;
  }
-
-
  .card1, 
  .card2,
  .card3,
@@ -175,10 +167,7 @@ main {
  .card8 {
  	background-repeat: no-repeat;
  	background-size: cover;
-
-
- }
-
+}
  .small-hed {
  	font-size: 12px;
  	font-weight: 300;
